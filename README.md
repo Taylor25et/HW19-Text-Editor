@@ -1,9 +1,8 @@
 # HW19-Text-Editor 
 ![gitHubLicense](https://img.shields.io/badge/License-MIT-green.svg)
-[]("./media/homepage.png")
-
 ## Description
-This application functions as a single-page text editor that runs in the browser. [Just Another Txt Editor](https://justanothertxteditor.herokuapp.com/) is a progressive web application(PWA) that can be installed locally and function offline. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. <br>
+![](./media/homepage.png)
+This application functions as a single-page text editor that runs in the browser. [Just Another Txt Editor](https://justanothertxteditor.herokuapp.com/) is a progressive web application(PWA) that can be installed locally and function offline. Additionally, it features several data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. <br>
 - Link to Deployed Heroku: [Just Another Txt Editor](https://justanothertxteditor.herokuapp.com/)
 - Link to GitHub Repository: [Repository Webpage](https://github.com/Taylor25et/HW19-Text-Editor)
 
@@ -23,29 +22,29 @@ SO THAT I can reliably retrieve them for later use
 - [Questions](#questions)
 
 ## Installation 
+![Demo Video](./media/demo.gif)
 #### Install Application:
 - Click link to deployed Heroku: [Just Another Txt Editor](https://justanothertxteditor.herokuapp.com/)
-- Click 'Install'
+- Click "Install!" button
 
-#### Install Respository: 
+#### Install Repository: 
 - Clone this repository page
 - Open in VS Code 
 - Open terminal and run the following commands
     1. ``` npm init ```
     2. ``` npm i ```
     3. ``` npm run start ```
-
+- Open localhost:3000 in browser
+- Click "Install!" button
 ## Usage
+![](,/media/scripts.png)
+Our assignment started with provided code which I used to create this application. Using the [Webpack](https://www.npmjs.com/package/webpack) package I was able to implement methods for getting and storing data to an IndexedDB database. I used idb, a lightweight wrapper around the IndexedDB API, that features several methods that are useful for storing and retrieving data. I used JavaScript & Node.js when writing this application.
 
 #### Dependencies
 - [Express](https://www.npmjs.com/package/express)
 - [Concurrently](https://www.npmjs.com/package/concurrently)
-- [Webpack](https://www.npmjs.com/package/webpack)
-
-Dependencies Installation Command:
-```md
-npm install express
-```
+- [Webpack](https://www.npmjs.com/package/webpack)<br>
+![](./media/devdep.png)
 
 ## License
 This project is covered under the MIT license. 
