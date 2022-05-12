@@ -14,12 +14,11 @@ module.exports = () => {
       filename: "[name].bundle.js",
       path: path.resolve(__dirname, "dist"),
     },
-
     plugins: [
       // Webpack plugin that generates our html file and injects our bundles.
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "J.A.T.E",
+        title: "JATE",
       }),
       // Injects our custom service worker
       new InjectManifest({
@@ -31,7 +30,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: "Just Another Text Editor",
-        short_name: "J.A.T.E",
+        short_name: "JATE",
         description: "Just Another Text Editor",
         background_color: "#225ca3",
         theme_color: "#225ca3",

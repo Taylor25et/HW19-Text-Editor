@@ -42,4 +42,4 @@ registerRoute(
     ],
   })
 );
-registerRoute();
+
