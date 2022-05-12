@@ -1,6 +1,6 @@
 # HW19-Text-Editor 
 ![gitHubLicense](https://img.shields.io/badge/License-MIT-green.svg)
-
+[]("./media/homepage.png")
 
 ## Description
 This application functions as a single-page text editor that runs in the browser. [Just Another Txt Editor](https://justanothertxteditor.herokuapp.com/) is a progressive web application(PWA) that can be installed locally and function offline. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. <br>
