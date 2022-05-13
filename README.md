@@ -37,7 +37,7 @@ SO THAT I can reliably retrieve them for later use
 - Open localhost:3000 in browser
 - Click "Install!" button
 ## Usage
-![](,/media/scripts.png)
+![](./media/scripts.png)
 Our assignment started with provided code which I used to create this application. Using the [Webpack](https://www.npmjs.com/package/webpack) package I was able to implement methods for getting and storing data to an IndexedDB database. I used idb, a lightweight wrapper around the IndexedDB API, that features several methods that are useful for storing and retrieving data. I used JavaScript & Node.js when writing this application.
 
 #### Dependencies
